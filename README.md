@@ -1,13 +1,19 @@
-# CatPinterest
+# catpinterest
 
-Необходимо реализовать интерфейс для просмотра котиков используя API https://thecatapi.com
+## Project setup
+```
+npm install
+```
 
-Дизайн лежит тут - https://bit.ly/3utxaL2
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-по умолчанию должна открываться вкладка "все котики"
-у котика должна быть возможность добавить в "любимые" и убрать из "любимых"
-данные о "любимых" котиках должны хранится на клиенте
-на вкладке "любимые котики" должны отображаться добавленные в "любимые" котики
-реализация адаптивности будет плюсом, но не обязательна
-бесконечная прокрутка будет плюсом, но не обязательна
-можно использовать любой фреймворк включая vanilla.js
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
