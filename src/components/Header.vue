@@ -1,11 +1,9 @@
 <template>
 <div class="header">
     <div class="container">
-        <nav>
-            <ul class="header__list">
-                <li class="header__item active">Все котики</li>
-                <li class="header__item">Любимые котики</li>
-            </ul>
+        <nav class="header__list">
+            <router-link to='/' class="header__item">Все котики</router-link>
+            <router-link to='/favorite' class="header__item">Любимые котики</router-link>
         </nav>
     </div>
 </div>
@@ -14,10 +12,16 @@
 
 
 <script>
+export default{
 
+}
 </script>
 
 <style scoped>
+
+a{
+    text-decoration: none;
+}
 .header{
     width: 100%;
     height: 64px;
@@ -45,7 +49,7 @@ ul{
     transition: 0.3s;
 }
 
-.active{
+.router-link-active{
     background-color: #1E88E5;
     opacity: 1;
 }
